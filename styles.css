@@ -1,0 +1,185 @@
+:root {
+    --color-primay: #C271FF;
+
+    --bg-dark: #071629;
+
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+main {
+    background-image: url('./images/pic_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.smile {
+    background-image: url('./images/smile_off.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 36px;
+    height: 29px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 151px;
+}
+
+.title2 span{
+    color: var(--color-primay);
+}
+
+.btn-primary {
+    background-color: var(--color-primay) !important;
+    border: var(--color-primay) !important;
+    width: 162px;
+    height: 44px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.rounded-circle {
+    max-width: 150px !important;
+}
+
+.description {
+    max-width: 150px;
+}
+
+.container-carousel {
+    width: auto;
+    max-height: 392px;
+    background-color: var(--color-primay);
+}
+
+.testimonial {
+    max-width: 943px;
+}
+
+.btn-carousel {
+    background-color: transparent;
+    border: none;
+}
+
+.arrow {
+    width: 30px;
+    height: auto;
+}
+
+.container-carousel-tutorials {
+    background-color: none;
+}
+
+.span-title {
+    color: var(--color-primay);
+}
+
+.card-tuto {
+    max-width: 255px !important;
+}
+
+.btn-play {
+    width: 64px;
+    height: auto;
+    position: absolute;
+    left: calc(30%);
+    top: calc(10%);
+}
+
+.person-score {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.person-score img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.person-score p {
+    color: var(--color-primay);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+.stars img {
+    width: 15px;
+    height: 15px;
+}
+
+.score p {
+    color: var(--color-primay);
+}
+
+.container-membership {
+    background-color: var(--bg-dark);
+}
+
+.container-membership h3 span {
+    color: var(--color-primay);
+}
+
+.container-membership img {
+    width: 45px;
+    height: 36px;
+}
+
+.container-membership .col {
+    width: 257px;
+}
+
+footer {
+    background-color: var(--bg-dark);
+}
+
+.footer-logos {
+    width: 90%;
+}
+
+/* Media Mobile */
+@media only screen and (max-width: 575px){
+
+    .navbar {
+        justify-content: center !important;
+    }
+
+    .navbar button {
+        position: absolute;
+        left: 0;
+        top: 10%;
+    }
+
+    .smile {
+        margin-right: 0;
+    }
+
+    .title  {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 61px;
+        line-height: 77px;
+        border: none;
+    }
+
+    .footer-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media {
+        margin: 1rem 0;
+    }
+}
