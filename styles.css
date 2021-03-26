@@ -177,6 +177,19 @@ footer {
     line-height: 75px;
 }
 
+.table-pricing tbody tr th {
+    text-align: start;
+    padding-left: 0 !important;
+}
+
+.pricing {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 55px;
+}
+
+
 /* Media Mobile */
 @media only screen and (max-width: 575px){
 
@@ -209,5 +222,9 @@ footer {
 
     .social-media {
         margin: 1rem 0;
+    }
+
+    .table-pricing thead tr th:first-child {
+        display: none;
     }
 }
