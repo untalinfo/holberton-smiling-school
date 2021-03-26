@@ -149,6 +149,34 @@ footer {
     width: 90%;
 }
 
+/* Precing */
+
+.bg-pricing {
+    background-image: url('./images/pic_2.jpg');
+}
+
+.hero-pricing .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.hero-pricing .title-logo-coiny {
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.hero-pricing .subtitles p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 75px;
+}
+
 /* Media Mobile */
 @media only screen and (max-width: 575px){
 
