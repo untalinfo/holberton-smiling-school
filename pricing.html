@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>SmileSchool</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <main class="bg-pricing d-flex flex-column justify-content-lg-between img-fluid container-fluid">
+        <header class="pt-4 mb-5">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="logo navbar-brand m-0">
+                    <a class="nav-link text-white d-flex flex-column flex-sm-row align-items-sm-center" href="./homepage.html" >
+                        <div class="smile "></div>
+                        <img src="./images/logo.png" width="111.83" height="28" alt="Logo smile" class="img-fluid">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex d-block d-sm-none form-inline mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="./courses.html">COURSES <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./pricing.html">PRECING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./login.html">LOGIN</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-none d-sm-flex justify-content-end w-100">
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link text-white" href="./courses.html">COURSES <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link text-white" href="./pricing.html">PRECING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./login.html">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Hero section -->
+        <section class="hero-pricing text-white text-center mt-5 mb-4">
+            <p class="title">What is <span><img src="./images/smile_off.png" alt="" width="35"></span> <span class="title-logo-coiny">SmileSchool</span> ?</p>
+            <div class="subtitles d-flex justify-content-center text-white mt-5">
+                <p>Go pro!</p>
+            </div>
+            <!-- pricing table -->
+            <div class="container table-pricing">
+                <table class="table table-borderless text-white">
+                    <thead>
+                        <tr>
+                            <th scope="col d-none d-sm-none d-md-block"></th>
+                            <th scope="col">
+                                <button type="button" class="btn btn-primary rounded-pill shadow mt-3 mb-3">BUY 3 MONTHS</button>
+                                <p class="mb-1 pricing">$3.60</p>
+                                <small class="text-meted">$1.20/month</small>
+                            </th>
+                            <th scope="col">
+                                <button type="button" class="btn btn-primary rounded-pill shadow mt-3 mb-3">BUY 1 YEAR</button>
+                                <p class="mb-1 pricing">$12.99</p>
+                                <small>$1.08/month</small>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="d-md-none">
+                            <th scope="row"></th>
+                            <td><small>3 MONTHES</small></td>
+                            <td><small>1 YEAR</small></td>
+                        </tr>
+                        <tr class="border-bottom border-light border-1">
+                            <th scope="row">Unlimitted access to all tutorials</th>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                        </tr>
+                        <tr class="border-bottom border-light border-1">
+                            <th scope="row">Access SmileSchool private forum</th>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                        </tr>
+                        <tr class="border-bottom border-light border-1">
+                            <th scope="row">Access Smiles contests & Smiles Analysis</th>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                        </tr>
+                        <tr class="border-bottom border-light border-1">
+                            <th scope="row">Access Smiles contests & Smiles Analysis</th>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img src="./images/signal.png" alt="" class="d-block" width="80">
+                                Exclusive discount on all Signal products
+                            </th>
+                            <td></td>
+                            <td><i class="bi bi-check-circle-fill text-success"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <!-- Quotes section -->
+    <div class="container-carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-white font-weight-normal">
+                <div class="testimonial carousel-item active px-5 my-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-sm-4 d-flex justify-content-sm-end justify-content-center">
+                            <img src="./images/profile_5.jpg" class="d-block rounded-circle" alt="...">
+                        </div>
+                        <div class="col pr-5 mr-4 pt-5 pt-sm-0">
+                            <p> « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                            <h6 class="font-weight-bold m-0 mb-1">Person Name</h6>
+                            <p class="font-italic m-0">weather presenter</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial carousel-item px-5 my-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-sm-4 d-flex justify-content-sm-end justify-content-center">
+                            <img src="./images/profile_5.jpg" class="d-block rounded-circle" alt="...">
+                        </div>
+                        <div class="col pr-5 mr-4 pt-5 pt-sm-0">
+                            <p> « Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                            <h6 class="font-weight-bold m-0 mb-1">Person Name</h6>
+                            <p class="font-italic m-0">weather presenter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="visually-hidden">
+                    <img src="./images/arrow_white_left.png" alt="arrow prev" class="arrow">
+                </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="visually-hidden">
+                    <img src="./images/arrow_white_right.png" alt="arrow next" class="arrow">
+                </span>
+            </a>
+        </div>
+    </div>
+    <!-- FAQ section -->
+    <div class="container p-5">
+        <h2 class="text-center m-5" style="color: #071629;
+        ;">F.A.Q</h2>
+        <div class="row px-5">
+            <div class="col-12 col-md-6 mb-5">
+                <h5 style="color: #071629;
+                ;">How does this work?</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+                <h5 style="color: #071629;
+                ;">How does this work?</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="row px-5">
+            <div class="col-12 col-md-6 mb-5">
+                <h5 style="color: #071629;
+                ;">How does this work?</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+                <h5 style="color: #071629;
+                ;">How does this work?</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+    <footer class="container-fluid d-flex flex-column align-items-center justify-content-center color-white p-5">
+        <div class="footer-logos d-flex flex-lg-row justify-content-between  mb-4">
+            <div class="logo d-flex flex-column flex-sm-row align-items-sm-center m-0">
+                <div class="smile "></div>
+                <img src="./images/logo.png" width="111.83" height="28" alt="Logo smile" class="img-fluid">
+            </div>
+            <div class="social-media">
+                    <i class="bi bi-facebook text-white" style="font-size: 1.9rem;"></i>
+                    <i class="bi bi-twitter text-white mx-3" style="font-size: 1.9rem;"></i>
+                    <i class="bi bi-instagram text-white" style="font-size: 1.9rem;"></i>
+            </div>
+        </div>
+        <small class="text-muted">©smileschool 2020</small>
+    </footer>
+</body>
+</html>
