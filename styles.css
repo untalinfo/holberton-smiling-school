@@ -210,6 +210,26 @@ footer {
     color: var(--color-primay);
 }
 
+.container-fiters {
+    background-color: var(--color-primay);
+}
+
+.bg-filters-courses {
+    background-color: rgba(255, 255, 255, .25);
+}
+
+.form-control::placeholder {
+    color: white !important;
+    opacity: .5 !important;
+
+}
+
+.bg-filters-courses .fs-filters-courses {
+    color: white !important;
+    opacity: .5 !important;
+    font-weight: 300;
+}
+
 
 /* Media Mobile */
 @media only screen and (max-width: 575px){
